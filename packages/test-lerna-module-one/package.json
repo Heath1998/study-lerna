@@ -1,6 +1,6 @@
 {
   "name": "test-lerna-module-one",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -33,7 +33,7 @@
     "typescript": "^5.2.2"
   },
   "dependencies": {
-    "test-lerna-module-two": "^0.0.1",
+    "test-lerna-module-two": "^0.0.2",
     "vue": "^3.4.25"
   }
 }
