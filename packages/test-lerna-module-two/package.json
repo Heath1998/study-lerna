@@ -1,0 +1,32 @@
+{
+  "name": "test-lerna-module-two",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "type": "module",
+  "scripts": {
+    "lint": "eslint src --ext .ts,.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c",
+    "start": "rollup -w -c"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.23.2",
+    "@babel/plugin-transform-runtime": "^7.23.2",
+    "@babel/preset-env": "^7.23.2",
+    "@babel/preset-typescript": "^7.23.2",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@typescript-eslint/eslint-plugin": "^6.8.0",
+    "@typescript-eslint/parser": "^6.8.0",
+    "eslint": "^8.52.0",
+    "prettier": "^3.0.3",
+    "rollup": "^4.1.4",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-typescript2": "^0.36.0",
+    "typescript": "^5.2.2"
+  }
+}

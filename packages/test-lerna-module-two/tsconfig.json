@@ -1,0 +1,35 @@
+{
+  // see https://www.typescriptlang.org/tsconfig to better understand tsconfigs
+  "include": ["src"],
+  "exclude": ["node_modules"],
+  "compilerOptions": {
+    "declaration": true, // 生成*.d.ts
+    "target": "es6" // 编译成什么版本
+    // "target": "es5", // 编译成什么版本
+    // "module": "ES2015", // 指定生成哪个模块系统代码
+    // "allowJs": true, // 允许编译javascript文件。、
+    // "jsx": "react",
+    // "allowSyntheticDefaultImports": true,
+    // "lib": ["es5", "es7", "dom"]
+    // "allowUnreachableCode": true, // 不报告执行不到的代码错误。
+    // "allowUnusedLabels": false, // 不报告未使用的标签错误
+    // "alwaysStrict": false, // 以严格模式解析并为每个源文件生成 "use strict"语句
+    // "preserveConstEnums": true, // 使用 const enum 产生内联成员
+    // "experimentalDecorators": true, // 启用实验性的ES装饰器
+    // "sourceMap": false,
+    // "resolveJsonModule": true,
+    // "noImplicitAny": false, // 是否默认禁用 any
+    // "removeComments": true, // 是否移除注释
+    // "types": ["node"],
+    // "target": "es5", // 编译成什么版本
+    // "module": "ES2015", // 指定生成哪个模块系统代码
+    // "allowJs": true, // 允许编译javascript文件。、
+    // "jsx": "react",
+    // "allowSyntheticDefaultImports": true,
+    // "lib": ["es5", "es7", "dom"]
+    // "baseUrl": "./",
+    // "paths": {
+    //   "@/*": ["src/*"]
+    // }
+  }
+}
