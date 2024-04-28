@@ -1,0 +1,14 @@
+image: node:latest
+
+build:
+  script:
+    - npm install
+    - npm install -g lerna@8.1.2
+    - lerna run build
+    - lerna publish from-package --yes
+  artifacts:
+    paths:
+      - node_modules/
+  only:
+    - master
+  when: on_success
