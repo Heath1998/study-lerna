@@ -1,5 +1,4 @@
 import all from "test-lerna-module-two";
-// const { sum }  = require('test-lerna-module-two');
 
 console.log(all.sum(1, 2));
 
