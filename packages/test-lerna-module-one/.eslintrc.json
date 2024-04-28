@@ -1,22 +1,22 @@
-// {
-//   "extends":        [ "plugin:@typescript-eslint/recommended", "plugin:prettier/recommended"],
-//   "parser": "@typescript-eslint/parser",
-//   "parserOptions": {
-//     "ecmaVersion": 2019,
-//     "sourceType": "module"
-//   },
-//   "rules": {
-//     "require-jsdoc": "off",
-//     "arrow-parens": "off",
-//     "object-curly-spacing": "off",
-//     "indent": "off"
-//   },
-//   "env": {
-//     "es6": true,
-//     "browser": true
-//   },
-//   "plugins": ["@typescript-eslint"]
-// }
 {
-  
+  "extends": [
+    "plugin:@typescript-eslint/recommended",
+    "plugin:prettier/recommended"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": 2019,
+    "sourceType": "module"
+  },
+  "rules": {
+    "require-jsdoc": "off",
+    "arrow-parens": "off",
+    "object-curly-spacing": "off",
+    "indent": "off"
+  },
+  "env": {
+    "es6": true,
+    "browser": true
+  },
+  "plugins": ["@typescript-eslint"]
 }
