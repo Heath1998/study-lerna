@@ -1,0 +1,43 @@
+# image: node:latest
+
+
+# build:
+#   script:
+#     - npm install
+#     - npm install -g lerna@8.1.2
+#     - lerna run build
+#     - lerna publish from-package --yes
+#   artifacts:
+#     paths:
+#       - node_modules/
+#   only:
+#     - master
+#   when: on_success
+
+name: CI/CD Pipeline
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+        node: [18]
+
+    steps:
+      - name: Install dependencies
+        run: npm install
+
+      - name: npm install -g lerna@8.1.2
+        run: npm install -g lerna@8.1.2
+
+      - name: lerna run build
+        run: lerna run build
+
+      - name: lerna publish from-package --yes
+        run: lerna publish from-package --yes
