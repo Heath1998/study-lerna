@@ -1,4 +1,5 @@
 {
+  "private": true,
   "name": "test-lerna-module-two",
   "version": "0.0.7",
   "description": "",
