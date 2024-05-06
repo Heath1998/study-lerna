@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "test-lerna-module-two",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
